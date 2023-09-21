@@ -16,4 +16,9 @@ function fechar()
     botao.style.display = "block";
 }
 
+function mudarTema()
+{
+    document.body.classList.toggle("claro");
+}
+
 

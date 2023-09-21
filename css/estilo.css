@@ -1,5 +1,5 @@
 
-#botao_abrir
+#botao-abrir
 {
     font-family: 'Material Icons Outlined';
 }
@@ -46,7 +46,7 @@ p
 
 }
 
-button
+.clique
 {
     border-radius: 20px;
 
@@ -59,6 +59,10 @@ button
     padding: 10px;
 
     text-decoration: none;
+
+    margin-left: 80px;
+
+    font-size: 15px;
 }
 
 header
@@ -104,3 +108,88 @@ footer
         {
             opacity: 0.5;
         }
+
+
+
+
+
+
+
+        :root
+{
+    --corpo: #000;
+    --texto: #FFF;
+    --texto-secundario: #FF5C00;
+    --texto-tecundario: #fafe42;
+    --texto-sexcundario: #000;
+
+}
+
+
+.claro
+{
+    --corpo: #ffffff;
+    --texto: #000;
+    --texto-tecundario: #000000;
+    --texto-Qecundario: #fafe42;
+    --texto-secundario: #672500;
+    --texto-sexcundario: #fafe42
+    
+   
+   
+}
+
+body
+{
+    background-color: var(--corpo);
+  
+}
+
+p
+{
+    color: var(--texto);
+}
+
+h1
+{
+    color: var(--texto-secundario);
+    
+
+    
+}
+
+
+.icones
+{
+    font-family: 'Material Icons Outlined';
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+button
+{
+    font-size: 32px;
+    background-color: transparent;
+    color: var(--texto);
+    border: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer
+{
+    background-color: var( --texto-sexcundario);
+    
+}
+    
+    
+
+#rodape p
+{
+    color: var(--texto-tecundario);
+    
+}
